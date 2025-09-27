@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\font_fonts.xml.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\font\\fonts.xml"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\font_sfproultralightitalic.OTF.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\font\\sfproultralightitalic.OTF"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\font_sfprobolditalic.OTF.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\font\\sfprobolditalic.OTF"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\font_sfproheavyitalic.OTF.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\font\\sfproheavyitalic.OTF"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\drawable_chat_page_bg.png.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\drawable\\chat_page_bg.png"
+    },
+    {
+        "merged": "com.example.geminichatbot.app-debug-58:/xml_network_security_config.xml.flat",
+        "source": "com.example.geminichatbot.app-main-60:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\font_sfproblackitalic.OTF.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\font\\sfproblackitalic.OTF"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\font_sfprolightitalic.OTF.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\font\\sfprolightitalic.OTF"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\font_sfpromedium.OTF.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\font\\sfpromedium.OTF"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\font_sfprobold.OTF.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\font\\sfprobold.OTF"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\font_sfproregular.OTF.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\font\\sfproregular.OTF"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\drawable_google.png.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\drawable\\google.png"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\font_sfprothinitalic.OTF.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\font\\sfprothinitalic.OTF"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-debug-58:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\KIIT0001\\.gradle\\daemon\\8.13\\com.example.geminichatbot.app-main-60:\\xml\\network_security_config.xml"
+    }
+]
