@@ -1,0 +1,18 @@
+# WEB SERVICE
+fastapi
+uvicorn
+pydantic
+python-dotenv
+
+# RAG FRAMEWORK
+langchain
+langchain-core
+langchain-google-genai
+
+# COMMUNITY
+langchain-COMMUNITY
+
+# SPECIFIC
+faiss-cpu
+pypdf
+sentence-transformers
