@@ -1,0 +1,15 @@
+# Backend
+# Virtual Environment
+venv/
+env/
+.venv/
+*.pyc
+__pychache__/
+# LOCAL DATA
+data/
+# VECTOR STORE
+vectorstore.faiss/
+.env
+.vs
+*.log
+*.sqllite
