@@ -15,15 +15,12 @@ vectorstore.faiss/
 *.sqllite
 
 # Frontend
-//IntelliJ Idea moduLE file (Specific to the local IDE setup)
+# IntelliJ Idea moduLE file (Specific to the local IDE setup)
 *.iml 
-
-#Gradle build system cache and data
+# Gradle build system cache and data
 .gradle
-
 # Local machine Specific properties(like SDK path, API keys)
 /local.properties
-
 # Android studio project settings and caches
 /.idea/caches
 /.idea/libraries
@@ -31,19 +28,12 @@ vectorstore.faiss/
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-
-# macOS Specific file for folder view settings
-.DS_Store
-
 # Output directory for all combined code and APK files
 /build
-
 # Android studio folder for emulator screenshots and recordings
 /captures
-
 # Caches for native C++ (NDK) builds
 .externalNativeBuild
 .cxx
-
 # Duplicate entry for local properties
 local.properties
