@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">495370860306</string>
+    <string name="google_api_key" translatable="false">AIzaSyCiL6Cr5mVb3i8vTtBWBdw1BwC0LWEhbx4</string>
+    <string name="google_app_id" translatable="false">1:495370860306:android:25a4114a5163b050b1a5cb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCiL6Cr5mVb3i8vTtBWBdw1BwC0LWEhbx4</string>
+    <string name="google_storage_bucket" translatable="false">geminichatbot-9084a.firebasestorage.app</string>
+    <string name="project_id" translatable="false">geminichatbot-9084a</string>
+</resources>
