@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:3:1-33:12
-INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:3:1-33:12
-INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:3:1-33:12
-INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:3:1-33:12
+ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:3:1-33:12
+INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:3:1-33:12
+INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:3:1-33:12
+INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:3:1-33:12
 MERGED from [androidx.navigation:navigation-common-android:2.9.4] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\e872f8817f0ab28a798b6246b0fe370b\transformed\navigation-common-release\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-compose-android:2.9.4] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\1712c2f6451e5ab3de38eb136b42705a\transformed\navigation-compose-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-runtime-android:2.9.4] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\2abdd058b6dd765d04ec6b6b32ededbf\transformed\navigation-runtime-release\AndroidManifest.xml:17:1-22:12
@@ -23,8 +23,6 @@ MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\KIIT0001\.grad
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\47603703a233b044088c5bbb1e5eeb23\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\e5af2a799b533bd6a654716cf5174ea2\transformed\play-services-fido-20.1.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\0cc0233ff1de88955ae32ce1c7e7415e\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.ai.client.generativeai:generativeai:0.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\8ad37eaa0a1aa91cda23b99ee42360c5\transformed\generativeai-0.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.ai.client.generativeai:common:0.3.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\0e01cad216ae071ced53ff5dee1bf2d6\transformed\common-0.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.jeziellago:Markwon:58aa5aba6a] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\9ecc739124fd59bc0ad16f7cdd523f57\transformed\Markwon-58aa5aba6a\AndroidManifest.xml:2:1-9:12
 MERGED from [io.coil-kt:coil:2.2.2] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\6794016609aaf2c3abbd2989dafcc3e3\transformed\coil-2.2.2\AndroidManifest.xml:2:1-9:12
 MERGED from [io.coil-kt:coil-base:2.2.2] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\933b34cd0fa60029da6cda6b64ebdb63\transformed\coil-base-2.2.2\AndroidManifest.xml:2:1-9:12
@@ -57,7 +55,6 @@ MERGED from [androidx.savedstate:savedstate-ktx:1.3.1] C:\Users\KIIT0001\.gradle
 MERGED from [androidx.savedstate:savedstate-android:1.3.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\8815c3199c55c17ffa74db5f475fd270\transformed\savedstate-release\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.3] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\b50bc3a466677ef6924d9e6a6bb797c2\transformed\lifecycle-viewmodel-2.9.3\AndroidManifest.xml:2:1-5:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.3] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\bb0836aa886a11c08912181e8810ea5e\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\752405fade0f128431f650abdf242e17\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\12c830ab19ceae9e87c7e9150c5838f1\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\55007c0947dbf3220786c7605ff798c6\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -85,9 +82,9 @@ MERGED from [androidx.activity:activity:1.11.0] C:\Users\KIIT0001\.gradle\caches
 MERGED from [androidx.activity:activity-compose:1.11.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\359211df24c4ff0ec5ae3d32d2c78e06\transformed\activity-compose-1.11.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\061337f6a0d9ac508dbd3b3761b8dfc5\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.core:core-ktx:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\421d295084e3128b7d4d2af2a3cf59a6\transformed\core-ktx-1.17.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\703a6f2486ac32143f0d213e80feb469\transformed\googleid-1.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\3e206f22ff7df056f97b457dabd98c12\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\c1cb26105c0a7c115ac45c0b87cfd2e9\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\703a6f2486ac32143f0d213e80feb469\transformed\googleid-1.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [io.noties.markwon:ext-strikethrough:4.6.2] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\ba5538288e0bd528b5f96f076296e522\transformed\ext-strikethrough-4.6.2\AndroidManifest.xml:2:1-11:12
 MERGED from [io.noties.markwon:ext-tables:4.6.2] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\f65dc7d6f1c4badc695f20c7e8528b89\transformed\ext-tables-4.6.2\AndroidManifest.xml:2:1-11:12
 MERGED from [io.noties.markwon:html:4.6.2] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\de47b0eeee097d56647a4e852954d7f5\transformed\html-4.6.2\AndroidManifest.xml:2:1-11:12
@@ -96,6 +93,7 @@ MERGED from [io.noties.markwon:core:4.6.2] C:\Users\KIIT0001\.gradle\caches\8.13
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35ad49a985a490a7ef0e54b3a06532f8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\0a08d884ac7dd8fa6afe3ef354aaf12a\transformed\firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\a44d0a66dd219f09081aa4307e8ec96f\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\549529d5a1b0acb699c19f2865fbbe61\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\4aa27054807e35ccfb00be60a09e67f2\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\cb33159b7175dd3d6c5370b0a86a0cb1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
@@ -104,38 +102,34 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\KIIT0001\.gradle\ca
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\f582c08096232e4feec6f071e4562a89\transformed\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\59319b1412863c27b78c876ae7ea3326\transformed\core-common-2.0.3\AndroidManifest.xml:2:1-21:12
 	package
-		INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:4:5-51
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:4:5-51
 	android:versionCode
-		INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:3:11-69
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:3:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\103923bfa342e30f7a1769663be37ea5\transformed\firebase-auth-24.0.1\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\103923bfa342e30f7a1769663be37ea5\transformed\firebase-auth-24.0.1\AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\b7f1e71cc4539fd9922827c25f16f15b\transformed\recaptcha-18.6.1\AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\b7f1e71cc4539fd9922827c25f16f15b\transformed\recaptcha-18.6.1\AndroidManifest.xml:7:5-67
-MERGED from [com.google.ai.client.generativeai:generativeai:0.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\8ad37eaa0a1aa91cda23b99ee42360c5\transformed\generativeai-0.4.0\AndroidManifest.xml:22:5-67
-MERGED from [com.google.ai.client.generativeai:generativeai:0.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\8ad37eaa0a1aa91cda23b99ee42360c5\transformed\generativeai-0.4.0\AndroidManifest.xml:22:5-67
-MERGED from [com.google.ai.client.generativeai:common:0.3.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\0e01cad216ae071ced53ff5dee1bf2d6\transformed\common-0.3.0\AndroidManifest.xml:22:5-67
-MERGED from [com.google.ai.client.generativeai:common:0.3.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\0e01cad216ae071ced53ff5dee1bf2d6\transformed\common-0.3.0\AndroidManifest.xml:22:5-67
 	android:name
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:6:5-79
 MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\103923bfa342e30f7a1769663be37ea5\transformed\firebase-auth-24.0.1\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\103923bfa342e30f7a1769663be37ea5\transformed\firebase-auth-24.0.1\AndroidManifest.xml:26:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\b7f1e71cc4539fd9922827c25f16f15b\transformed\recaptcha-18.6.1\AndroidManifest.xml:8:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\b7f1e71cc4539fd9922827c25f16f15b\transformed\recaptcha-18.6.1\AndroidManifest.xml:8:5-79
 	android:name
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:8:5-31:19
-INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:8:5-31:19
+ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:8:5-31:19
+INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:8:5-31:19
 MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\103923bfa342e30f7a1769663be37ea5\transformed\firebase-auth-24.0.1\AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\103923bfa342e30f7a1769663be37ea5\transformed\firebase-auth-24.0.1\AndroidManifest.xml:28:5-73:19
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\06d1d66d9700fa0aecebbfc407c81124\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
@@ -162,14 +156,14 @@ MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13
 MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\3b3fd3513ddbab1490ff923c09a70935\transformed\emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.9.3] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\98bcce5ad4def4ee67692160cb21fadb\transformed\lifecycle-process-2.9.3\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.9.3] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\98bcce5ad4def4ee67692160cb21fadb\transformed\lifecycle-process-2.9.3\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\752405fade0f128431f650abdf242e17\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\752405fade0f128431f650abdf242e17\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\12c830ab19ceae9e87c7e9150c5838f1\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\12c830ab19ceae9e87c7e9150c5838f1\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
 MERGED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\549529d5a1b0acb699c19f2865fbbe61\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\549529d5a1b0acb699c19f2865fbbe61\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\cb33159b7175dd3d6c5370b0a86a0cb1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
@@ -177,55 +171,55 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\KI
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\59319b1412863c27b78c876ae7ea3326\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\59319b1412863c27b78c876ae7ea3326\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:14:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:12:9-54
 	android:roundIcon
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:15:9-54
 	tools:targetApi
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:18:9-29
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:18:9-29
 	android:icon
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:17:9-51
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:17:9-51
 	android:networkSecurityConfig
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:9:9-69
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:9:9-69
 	android:dataExtractionRules
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:11:9-65
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:11:9-65
 activity#com.example.geminichatbot.MainActivity
-ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:19:9-30:20
+ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:19:9-30:20
 	android:label
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:22:13-45
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:22:13-45
 	android:windowSoftInputMode
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:23:13-55
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:23:13-55
 	android:exported
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:21:13-36
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:21:13-36
 	android:theme
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:24:13-55
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:24:13-55
 	android:name
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:20:13-41
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:20:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:28:27-74
 uses-sdk
-INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml
 MERGED from [androidx.navigation:navigation-common-android:2.9.4] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\e872f8817f0ab28a798b6246b0fe370b\transformed\navigation-common-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common-android:2.9.4] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\e872f8817f0ab28a798b6246b0fe370b\transformed\navigation-common-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-compose-android:2.9.4] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\1712c2f6451e5ab3de38eb136b42705a\transformed\navigation-compose-release\AndroidManifest.xml:5:5-44
@@ -264,10 +258,6 @@ MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\KIIT0001
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\e5af2a799b533bd6a654716cf5174ea2\transformed\play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\0cc0233ff1de88955ae32ce1c7e7415e\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\0cc0233ff1de88955ae32ce1c7e7415e\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
-MERGED from [com.google.ai.client.generativeai:generativeai:0.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\8ad37eaa0a1aa91cda23b99ee42360c5\transformed\generativeai-0.4.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.ai.client.generativeai:generativeai:0.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\8ad37eaa0a1aa91cda23b99ee42360c5\transformed\generativeai-0.4.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.ai.client.generativeai:common:0.3.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\0e01cad216ae071ced53ff5dee1bf2d6\transformed\common-0.3.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.ai.client.generativeai:common:0.3.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\0e01cad216ae071ced53ff5dee1bf2d6\transformed\common-0.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.github.jeziellago:Markwon:58aa5aba6a] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\9ecc739124fd59bc0ad16f7cdd523f57\transformed\Markwon-58aa5aba6a\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.jeziellago:Markwon:58aa5aba6a] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\9ecc739124fd59bc0ad16f7cdd523f57\transformed\Markwon-58aa5aba6a\AndroidManifest.xml:5:5-7:41
 MERGED from [io.coil-kt:coil:2.2.2] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\6794016609aaf2c3abbd2989dafcc3e3\transformed\coil-2.2.2\AndroidManifest.xml:5:5-7:41
@@ -332,8 +322,6 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.3] C:\Users\KIIT0001\.gr
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.3] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\b50bc3a466677ef6924d9e6a6bb797c2\transformed\lifecycle-viewmodel-2.9.3\AndroidManifest.xml:4:5-43
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.3] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\bb0836aa886a11c08912181e8810ea5e\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.3] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\bb0836aa886a11c08912181e8810ea5e\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\752405fade0f128431f650abdf242e17\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\752405fade0f128431f650abdf242e17\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\12c830ab19ceae9e87c7e9150c5838f1\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
@@ -388,12 +376,12 @@ MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\KII
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\061337f6a0d9ac508dbd3b3761b8dfc5\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.core:core-ktx:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\421d295084e3128b7d4d2af2a3cf59a6\transformed\core-ktx-1.17.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\421d295084e3128b7d4d2af2a3cf59a6\transformed\core-ktx-1.17.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\703a6f2486ac32143f0d213e80feb469\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\703a6f2486ac32143f0d213e80feb469\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\3e206f22ff7df056f97b457dabd98c12\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\3e206f22ff7df056f97b457dabd98c12\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\c1cb26105c0a7c115ac45c0b87cfd2e9\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\c1cb26105c0a7c115ac45c0b87cfd2e9\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\703a6f2486ac32143f0d213e80feb469\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\703a6f2486ac32143f0d213e80feb469\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
 MERGED from [io.noties.markwon:ext-strikethrough:4.6.2] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\ba5538288e0bd528b5f96f076296e522\transformed\ext-strikethrough-4.6.2\AndroidManifest.xml:7:5-9:41
 MERGED from [io.noties.markwon:ext-strikethrough:4.6.2] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\ba5538288e0bd528b5f96f076296e522\transformed\ext-strikethrough-4.6.2\AndroidManifest.xml:7:5-9:41
 MERGED from [io.noties.markwon:ext-tables:4.6.2] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\f65dc7d6f1c4badc695f20c7e8528b89\transformed\ext-tables-4.6.2\AndroidManifest.xml:7:5-9:41
@@ -410,6 +398,8 @@ MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\KIIT0001\.
 MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\0a08d884ac7dd8fa6afe3ef354aaf12a\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\a44d0a66dd219f09081aa4307e8ec96f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\a44d0a66dd219f09081aa4307e8ec96f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\549529d5a1b0acb699c19f2865fbbe61\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\549529d5a1b0acb699c19f2865fbbe61\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\4aa27054807e35ccfb00be60a09e67f2\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
@@ -427,9 +417,9 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\KIIT0001\.gradl
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\103923bfa342e30f7a1769663be37ea5\transformed\firebase-auth-24.0.1\AndroidManifest.xml:23:9-148
 	android:targetSdkVersion
-		INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\103923bfa342e30f7a1769663be37ea5\transformed\firebase-auth-24.0.1\AndroidManifest.xml:29:9-46:20
 	android:excludeFromRecents
@@ -618,6 +608,32 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.9.3] C:\Users\KIIT0001\.gradl
 		ADDED from [androidx.lifecycle:lifecycle-process:2.9.3] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\98bcce5ad4def4ee67692160cb21fadb\transformed\lifecycle-process-2.9.3\AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.9.3] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\98bcce5ad4def4ee67692160cb21fadb\transformed\lifecycle-process-2.9.3\AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\12c830ab19ceae9e87c7e9150c5838f1\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\12c830ab19ceae9e87c7e9150c5838f1\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\12c830ab19ceae9e87c7e9150c5838f1\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
+permission#com.example.geminichatbot.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.geminichatbot.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
 	android:value
@@ -660,32 +676,6 @@ action#androidx.profileinstaller.action.BENCHMARK_OPERATION
 ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
 	android:name
 		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\12c830ab19ceae9e87c7e9150c5838f1\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\12c830ab19ceae9e87c7e9150c5838f1\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\12c830ab19ceae9e87c7e9150c5838f1\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
-permission#com.example.geminichatbot.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
-uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
-uses-permission#com.example.geminichatbot.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
 activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
 ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\59319b1412863c27b78c876ae7ea3326\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
 	android:stateNotNeeded
