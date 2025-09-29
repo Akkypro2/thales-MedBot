@@ -9,11 +9,11 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:6:5-79
-12-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:6:22-76
+12-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 13-->[com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\b7f1e71cc4539fd9922827c25f16f15b\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:5-98
 13-->[com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\b7f1e71cc4539fd9922827c25f16f15b\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:22-95
@@ -30,51 +30,51 @@
 19-->[androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
 20
 21    <application
-21-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:8:5-31:19
+21-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:8:5-31:19
 22        android:allowBackup="true"
-22-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:10:9-35
+22-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:10:9-35
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 23-->[androidx.core:core:1.17.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\52a5a19449fe021be6f1ee9a2e11f22b\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
 24        android:dataExtractionRules="@xml/data_extraction_rules"
-24-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:11:9-65
+24-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:11:9-65
 25        android:debuggable="true"
 26        android:extractNativeLibs="false"
 27        android:fullBackupContent="@xml/backup_rules"
-27-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:12:9-54
+27-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:12:9-54
 28        android:icon="@mipmap/ic_launcher"
-28-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:13:9-43
+28-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:13:9-43
 29        android:label="@string/app_name"
-29-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:14:9-41
+29-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:14:9-41
 30        android:networkSecurityConfig="@xml/network_security_config"
-30-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:9:9-69
+30-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:9:9-69
 31        android:roundIcon="@mipmap/ic_launcher_round"
-31-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:15:9-54
+31-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:15:9-54
 32        android:supportsRtl="true"
-32-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:16:9-35
+32-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:16:9-35
 33        android:testOnly="true"
 34        android:theme="@style/Theme.GeminiChatBot" >
-34-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:17:9-51
+34-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:17:9-51
 35        <activity
-35-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:19:9-30:20
+35-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:19:9-30:20
 36            android:name="com.example.geminichatbot.MainActivity"
-36-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:20:13-41
+36-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:20:13-41
 37            android:exported="true"
-37-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:21:13-36
+37-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:21:13-36
 38            android:label="@string/app_name"
-38-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:22:13-45
+38-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:22:13-45
 39            android:theme="@style/Theme.GeminiChatBot"
-39-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:24:13-55
+39-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:24:13-55
 40            android:windowSoftInputMode="adjustResize" >
-40-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:23:13-55
+40-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:23:13-55
 41            <intent-filter>
-41-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:25:13-29:29
+41-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:25:13-29:29
 42                <action android:name="android.intent.action.MAIN" />
-42-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:26:17-69
-42-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:26:25-66
+42-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:26:17-69
+42-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:26:25-66
 43
 44                <category android:name="android.intent.category.LAUNCHER" />
-44-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:28:17-77
-44-->C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot7\app\src\main\AndroidManifest.xml:28:27-74
+44-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:28:17-77
+44-->C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\src\main\AndroidManifest.xml:28:27-74
 45            </intent-filter>
 46        </activity>
 47        <activity
@@ -289,50 +289,50 @@
 158-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
 159        </provider>
 160
-161        <receiver
-161-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
-162            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-162-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
-163            android:directBootAware="false"
-163-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
-164            android:enabled="true"
-164-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
-165            android:exported="true"
-165-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
-166            android:permission="android.permission.DUMP" >
-166-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
-167            <intent-filter>
-167-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
-168                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-168-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
-168-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
-169            </intent-filter>
-170            <intent-filter>
-170-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
-171                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-171-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
-171-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
-172            </intent-filter>
-173            <intent-filter>
-173-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
-174                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-174-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
-174-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
-175            </intent-filter>
-176            <intent-filter>
-176-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
-177                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-177-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
-177-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
-178            </intent-filter>
-179        </receiver>
-180
-181        <meta-data
-181-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\12c830ab19ceae9e87c7e9150c5838f1\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
-182            android:name="com.google.android.gms.version"
-182-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\12c830ab19ceae9e87c7e9150c5838f1\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
-183            android:value="@integer/google_play_services_version" /> <!-- The activities will be merged into the manifest of the hosting app. -->
-183-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\12c830ab19ceae9e87c7e9150c5838f1\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+161        <meta-data
+161-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\12c830ab19ceae9e87c7e9150c5838f1\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+162            android:name="com.google.android.gms.version"
+162-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\12c830ab19ceae9e87c7e9150c5838f1\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+163            android:value="@integer/google_play_services_version" />
+163-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\12c830ab19ceae9e87c7e9150c5838f1\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+164
+165        <receiver
+165-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+166            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+166-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+167            android:directBootAware="false"
+167-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+168            android:enabled="true"
+168-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+169            android:exported="true"
+169-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+170            android:permission="android.permission.DUMP" >
+170-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+171            <intent-filter>
+171-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+172                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+172-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+172-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+173            </intent-filter>
+174            <intent-filter>
+174-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+175                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+175-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+175-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+176            </intent-filter>
+177            <intent-filter>
+177-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+178                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+178-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+178-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+179            </intent-filter>
+180            <intent-filter>
+180-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+181                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+181-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+181-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\35a152aa737d33ac877943419d99fe0b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+182            </intent-filter>
+183        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
 184        <activity
 184-->[com.google.android.play:core-common:2.0.3] C:\Users\KIIT0001\.gradle\caches\8.13\transforms\59319b1412863c27b78c876ae7ea3326\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
 185            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
