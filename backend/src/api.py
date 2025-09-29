@@ -1,8 +1,9 @@
 from fastapi import FastAPI, HTTPException, Query, status
 from fastapi.responses import RedirectResponse
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, ValidationError, Field
+from pydantic import BaseModel, Field
 from typing import List, Dict, Any
+from langchain_community.chat_message_histories import ChatMessageHistory
 from dotenv import load_dotenv
 from src.embed import get_embedding
 from src.vector_store import load_vectorstore
@@ -30,15 +31,22 @@ embeddings= get_embedding()
 vectorstore= load_vectorstore("vectorstore.faiss", embeddings)
 pipeline= build_rag(vectorstore)
 
+store_session: dict[ str, ChatMessageHistory]= {}
 class ChatRequest(BaseModel):
     query: str
     conversation_history: List[Dict[str, Any]]= Field(default_factory= list)
-
+    session_id: str 
     
 @app.get("/ask")
-def ask(query: str= Query(..., description="Enter your question!")):
+def ask(query: str= Query(..., description="Enter your question!"), session_id: str= Query(..., description="Unique session ID-")):
     try:
-        answer= query_rag(pipeline, query)
+        if session_id not in store_session:
+            store_session[session_id]= ChatMessageHistory()
+        history: ChatMessageHistory= store_session[session_id]
+        message_history= history.messages
+        history.add_user_message(query)
+        answer= query_rag(pipeline, query, message_history)
+        history.add_ai_message(answer)
         return {"question": query, "answer": answer} 
     except Exception as e:
         raise HTTPException(status_code= 500, detail=str(e))
@@ -47,21 +55,19 @@ def ask(query: str= Query(..., description="Enter your question!")):
 @app.post("/ask")
 def ask_post(request: ChatRequest):
     try:
-        answer= query_rag(pipeline, request.query)
-        response= answer.get("result", "Sorry, I could not find an answer.")
+        if request.session_id not in store_session:
+            store_session[request.session_id]= ChatMessageHistory()
+        history: ChatMessageHistory= store_session[request.session_id]
+        message_history= history.messages
+        history.add_user_message(request.query)
+        answer= query_rag(pipeline, request.query, message_history)
+        history.add_ai_message(answer)
+        response= answer
         response_data = {
             "response": response,
             "sources": [] 
         }
         return response_data
-
-    except ValidationError as e:
-        print("VALIDATION ERROR DETAILS:", e.errors())
-        raise HTTPException(
-            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
-            detail=e.errors()
-        )
-    
     except Exception as e:
         raise HTTPException(status_code= 500, detail= str(e))
 
