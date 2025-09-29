@@ -42,10 +42,11 @@ def ask(query: str= Query(..., description="Enter your question!"), session_id: 
     try:
         if session_id not in store_session:
             store_session[session_id]= ChatMessageHistory()
+
         history: ChatMessageHistory= store_session[session_id]
         message_history= history.messages
-        history.add_user_message(query)
         answer= query_rag(pipeline, query, message_history)
+        history.add_user_message(query)
         history.add_ai_message(answer)
         return {"question": query, "answer": answer} 
     except Exception as e:
@@ -55,12 +56,14 @@ def ask(query: str= Query(..., description="Enter your question!"), session_id: 
 @app.post("/ask")
 def ask_post(request: ChatRequest):
     try:
-        if request.session_id not in store_session:
-            store_session[request.session_id]= ChatMessageHistory()
-        history: ChatMessageHistory= store_session[request.session_id]
+        session= request.session_id
+        if session not in store_session:
+            store_session[session]= ChatMessageHistory()
+
+        history: ChatMessageHistory= store_session[session]
         message_history= history.messages
-        history.add_user_message(request.query)
         answer= query_rag(pipeline, request.query, message_history)
+        history.add_user_message(request.query)
         history.add_ai_message(answer)
         response= answer
         response_data = {
