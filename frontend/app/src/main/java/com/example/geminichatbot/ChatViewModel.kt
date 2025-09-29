@@ -25,6 +25,8 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import java.util.UUID
+import kotlin.uuid.Uuid
 
 class ChatViewModel(application: Application) : AndroidViewModel(application) {
 
@@ -35,6 +37,7 @@ class ChatViewModel(application: Application) : AndroidViewModel(application) {
     val isTyping: LiveData<Boolean> = _isTyping
 
     private val apiService = RetrofitClient.instance
+    private val sessionId: String = UUID.randomUUID().toString()
 
 
 
@@ -72,7 +75,8 @@ class ChatViewModel(application: Application) : AndroidViewModel(application) {
                     apiService.sendMedicalQuery(
                         MedicalQueryRequest(
                             query = question,
-                            conversation_history = messageList.filter{it.role != "model" || it.message != "Thinking..."}
+                            conversation_history = messageList.filter{it.role != "model" || it.message != "Thinking..."},
+                            sessionId = this@ChatViewModel.sessionId
                         )
                     )
                 }
