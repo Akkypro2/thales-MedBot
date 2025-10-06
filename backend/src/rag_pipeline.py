@@ -7,7 +7,7 @@ from langchain_core.messages import BaseMessage
 from langchain_core.output_parsers import StrOutputParser
 
 prompt= ChatPromptTemplate.from_messages([
-    ("system", "Answer the user's question based on context:\n\n{context}"),
+    ("system", "Answer the user's question based on context in the a concise way and maximum in upto 5 to 8 lines.:\n\n{context}"),
     MessagesPlaceholder(variable_name="chat_history"),
     ("human", "{input}")
 ])
