@@ -130,6 +130,13 @@ venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+#### Create a .env file in the backend directory
+Add the following to it
+```bash
+GOOGLE-API-KEY=your-api-key
+VECTORSTORE_PATH=./vectorstore
+GOOGLE_APPLICATION_CREDENTIALS=path/to/your/service-account.json
+```
 ### 4 - Running the server
 #### If running frontend and backend on different devices
 ```bash
