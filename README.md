@@ -5,7 +5,37 @@ An AI-powered educational medical chatbot designed for medical students and indi
 *RAG Backend* - A robust AI engine that retrieves medical knowledge from curated sources and generates meaningful answers.  
 
 # Description
+MedBot is an LLM-powered multimodal chatbot prototype designed to assist with queries in the medical domain. Built on a Retrieval-Augmented Generation (RAG) framework, it combines intelligent information retrieval with generative capabilities to provide accurate, context-aware responses.
 
+## ⚙️ Key Features
+🩺 Medical Expertise – Specialized on curated medical datasets covering topics like human anatomy, diseases, medications, and physiological functions.
+
+🔍 Retrieval-Augmented Generation (RAG) – Enhances accuracy and factual grounding by retrieving relevant medical information before generating responses.
+
+🧩 Multimodal Understanding – Capable of interpreting and explaining medical images, charts, and diagrams.
+
+🧠 Session Memory – Incorporates short-term memory to retain context within a conversation session for more coherent interactions.
+
+🚫 Content Safety – Includes abusive language detection and filtering, ensuring safe and respectful communication.
+
+## ⚙️ Tech Stack
+📱 Frontend – Android Studio
+
+🎨 UI – Jetpack Compose
+
+🔗 Networking – Retrofit
+
+🔒 Auth – Firebase + Google
+
+🤖 LLM – Google Gemini
+
+🧭 Retrieval – RAG + FAISS
+
+🔡 Embeddings – Hugging Face
+
+⚡ Backend – FastAPI
+
+🌐 Tunneling – Ngrok
 
 # Directory Structure
 ## Backend
@@ -18,7 +48,7 @@ backend/
     │── ingest.py             #  load and split documents
     │── ingest_index.py       #  script for initial setup for loading and storing
     │── rag_pipeline.py       #  defines the rag pipeline
-    │──vector_store.py        #  create, save amd load vector store
+    │── vector_store.py        #  create, save and load vector store
 requirements.txt              #  requirements for the project
 ```
 ## Frontend    
@@ -26,7 +56,7 @@ requirements.txt              #  requirements for the project
 GeminiChatBot/
 ├── app/
 │   ├── manifests/
-│   │   └── AndroidManifest.xml                    #Declares app components and permissions
+│   │   └── AndroidManifest.xml                    # Declares app components and permissions
 │   │
 │   ├── kotlin+java/
 │   │   └── com/example/geminichatbot/
