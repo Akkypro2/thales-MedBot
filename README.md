@@ -109,3 +109,37 @@ GeminiChatBot/
     └── wrapper/
         └── gradle-wrapper.jar
 ```
+# Installation
+
+## Step 1 - Clone the repository
+```bash
+git clone https://github.com/the-flying-cow/thales-medbot.git
+cd thales-MedBot
+```
+## Step 2 -Setup Backend
+### 1 - Navigate to backend folder
+```bash
+cd backend
+```
+### 2 - Create virtual environment
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+### 3 - Install the requirements
+```bash
+pip install -r requirements.txt
+```
+### 4 - Running the server
+#### If running frontend and backend on different devices
+```bash
+uvicorn src.api:app --reload --host 0.0.0.0 --port 8000
+```
+In a different terminal run
+```bash
+ngrok http 8000
+```
+#### If running frontend and backend on same devices
+```bash
+uvicorn src.api:app --reload --host 127.0.0.1 --port 8000
+```
