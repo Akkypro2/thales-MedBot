@@ -37,4 +37,3 @@ vectorstore.faiss/
 .cxx
 # Duplicate entry for local properties
 local.properties
-Constants.kt
