@@ -273,7 +273,7 @@ fun AppHeader(navController: NavController) {
 
         TopAppBar(
             title = {
-                Text(text = "DoctorifyIt",
+                Text(text = "MedBot",
                     fontFamily = FontFamily(Font(R.font.sfprobold)),
                     fontWeight = FontWeight.ExtraBold,
                     fontSize = 30.sp,

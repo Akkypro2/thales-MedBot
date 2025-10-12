@@ -8,5 +8,5 @@ public final class BuildConfig {
   public static final String APPLICATION_ID = "com.example.geminichatbot.test";
   public static final String BUILD_TYPE = "debug";
   // Field from default config.
-  public static final String API_KEY = "AIzaSyDukD08OftknPqWaTcuXBPN14NDO5u1o3c";
+  public static final String API_KEY = "AIzaSyATuVbYyhrDDFFg7Zn9c6VjEZfjoMJ-irs";
 }
