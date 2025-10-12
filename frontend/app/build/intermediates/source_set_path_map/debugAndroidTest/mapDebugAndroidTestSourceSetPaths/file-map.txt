@@ -26,8 +26,8 @@ com.example.geminichatbot.test.app-lifecycle-runtime-compose-release-24 C:\Users
 com.example.geminichatbot.test.app-lifecycle-viewmodel-release-25 C:\Users\KIIT0001\.gradle\caches\8.13\transforms\bb0836aa886a11c08912181e8810ea5e\transformed\lifecycle-viewmodel-release\res
 com.example.geminichatbot.test.app-core-viewtree-1.0.0-26 C:\Users\KIIT0001\.gradle\caches\8.13\transforms\c1cb26105c0a7c115ac45c0b87cfd2e9\transformed\core-viewtree-1.0.0\res
 com.example.geminichatbot.test.app-graphics-path-1.0.1-27 C:\Users\KIIT0001\.gradle\caches\8.13\transforms\e84675adb42b0e4b54ed5bca008eeffe\transformed\graphics-path-1.0.1\res
-com.example.geminichatbot.test.app-androidTest-28 C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot5\app\build\generated\res\resValues\androidTest\debug
-com.example.geminichatbot.test.app-updated_navigation_xml-29 C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot5\app\build\generated\updated_navigation_xml\debugAndroidTest
-com.example.geminichatbot.test.app-mergeDebugAndroidTestResources-30 C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot5\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.geminichatbot.test.app-mergeDebugAndroidTestResources-31 C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot5\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.geminichatbot.test.app-debugAndroidTest-32 C:\Users\KIIT0001\AndroidStudioProjects\GeminiChatBot5\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.geminichatbot.test.app-androidTest-28 C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\build\generated\res\resValues\androidTest\debug
+com.example.geminichatbot.test.app-updated_navigation_xml-29 C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\build\generated\updated_navigation_xml\debugAndroidTest
+com.example.geminichatbot.test.app-mergeDebugAndroidTestResources-30 C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.geminichatbot.test.app-mergeDebugAndroidTestResources-31 C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.geminichatbot.test.app-debugAndroidTest-32 C:\Users\KIIT0001\AndroidStudioProjects\thales-MedBot\frontend\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
