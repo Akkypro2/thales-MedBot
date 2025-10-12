@@ -110,6 +110,13 @@ GeminiChatBot/
         └── gradle-wrapper.jar
 ```
 # Installation
+## Requisites
+```bash
+Android Studio Narwhal 3 Feature Drop | 2025.1.3
+Python3.x 
+GOOGLE APPLICATION CREDENTIALS
+LangChain 0.3.x
+```
 
 ## Step 1 - Clone the repository
 ```bash
@@ -117,16 +124,16 @@ git clone https://github.com/the-flying-cow/thales-medbot.git
 cd thales-MedBot
 ```
 ## Step 2 -Setup Backend
-### 1 - Navigate to backend folder
+### -> Navigate to backend folder
 ```bash
 cd backend
 ```
-### 2 - Create virtual environment
+### -> Create virtual environment
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
-### 3 - Install the requirements
+### -> Install the requirements
 ```bash
 pip install -r requirements.txt
 ```
@@ -137,7 +144,7 @@ GOOGLE-API-KEY=your-api-key
 VECTORSTORE_PATH=./vectorstore
 GOOGLE_APPLICATION_CREDENTIALS=path/to/your/service-account.json
 ```
-### 4 - Running the server
+### -> Running the server
 #### If running frontend and backend on different devices
 ```bash
 uvicorn src.api:app --reload --host 0.0.0.0 --port 8000
@@ -150,3 +157,5 @@ ngrok http 8000
 ```bash
 uvicorn src.api:app --reload --host 127.0.0.1 --port 8000
 ```
+## Step 3 -Setup Frontend
+Open the frontend directory in Android Studio and run the app.
