@@ -19,6 +19,10 @@ import com.example.geminichatbot.MedicalQueryRequest
 import com.example.geminichatbot.MedicalQueryResponse
 import com.example.geminichatbot.MessageModel
 import com.example.geminichatbot.ui.theme.MessageRow
+import com.google.ai.client.generativeai.GenerativeModel
+import com.google.ai.client.generativeai.type.BlockThreshold
+import com.google.ai.client.generativeai.type.HarmCategory
+import com.google.ai.client.generativeai.type.SafetySetting
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
@@ -38,6 +42,39 @@ class ChatViewModel(application: Application) : AndroidViewModel(application) {
 
     private val apiService = RetrofitClient.instance
     private val sessionId: String = UUID.randomUUID().toString()
+
+
+    private val safetySettings = listOf(
+        SafetySetting(
+            harmCategory = HarmCategory.HARASSMENT,
+            threshold = BlockThreshold.MEDIUM_AND_ABOVE
+        ),
+        SafetySetting(
+            harmCategory = HarmCategory.HATE_SPEECH,
+            threshold = BlockThreshold.MEDIUM_AND_ABOVE
+        ),
+        SafetySetting(
+            harmCategory = HarmCategory.SEXUALLY_EXPLICIT,
+            threshold = BlockThreshold.LOW_AND_ABOVE
+        ),
+        SafetySetting(
+            harmCategory = HarmCategory.DANGEROUS_CONTENT,
+            threshold = BlockThreshold.MEDIUM_AND_ABOVE
+        )
+    )
+
+    // Gemini model for content moderation
+    private val moderationModel = GenerativeModel(
+        modelName = "gemini-1.5-flash",
+        apiKey = Constants.apiKey, // Use your existing API key
+        safetySettings = safetySettings
+    )
+
+    // Blocked keywords list
+    private val blockedKeywords = listOf(
+        "offensive", "hate", "abusive", "violent", "fuck", "kill", "murder"
+        // Add more keywords as needed
+    )
 
 
 
@@ -61,6 +98,34 @@ class ChatViewModel(application: Application) : AndroidViewModel(application) {
                 if (!isNetworkAvailable()) {
                     _messageList.add(MessageModel(
                         message = "No internet connection. Please check your network.",
+                        role = "model"
+                    ))
+                    return@launch
+                }
+
+                if (containsBlockedKeywords(question)) {
+                    _messageList.add(MessageModel(
+                        message = "⚠️ Your message contains inappropriate language. Please rephrase your question respectfully.",
+                        role = "model"
+                    ))
+                    return@launch
+                }
+
+                // Step 2: Check if medical-related (BEFORE any API calls)
+                val isMedical = checkIfMedicalQuery(question)
+                if (!isMedical) {
+                    _messageList.add(MessageModel(
+                        message = "ℹ️ This chatbot specializes in medical and health-related questions. Please ask about medical topics.",
+                        role = "model"
+                    ))
+                    return@launch
+                }
+
+                // Step 3: Gemini safety check (BEFORE any API calls)
+                val safetyCheckPassed = performSafetyCheck(question)
+                if (!safetyCheckPassed) {
+                    _messageList.add(MessageModel(
+                        message = "⚠️ Your question couldn't be processed due to safety concerns. Please rephrase it in a respectful manner.",
                         role = "model"
                     ))
                     return@launch
@@ -93,6 +158,66 @@ class ChatViewModel(application: Application) : AndroidViewModel(application) {
             }
         }
     }
+
+    private fun containsBlockedKeywords(text: String): Boolean {
+        val lowerText = text.lowercase()
+        return blockedKeywords.any { keyword ->
+            lowerText.contains(keyword.lowercase())
+        }
+    }
+
+    private suspend fun checkIfMedicalQuery(query: String): Boolean {
+        return try {
+            withContext(Dispatchers.IO) {
+                val validationPrompt = """
+                    Is this a legitimate medical or health-related question?
+                    Answer only with YES or NO.
+                    
+                    Question: $query
+                """.trimIndent()
+
+                val response = moderationModel.generateContent(validationPrompt)
+                val answer = response.text?.uppercase() ?: "YES"
+                answer.contains("YES")
+            }
+        } catch (e: Exception) {
+            Log.e("ChatViewModel", "Medical validation error: ${e.message}")
+            // If validation fails, allow the query to proceed
+            true
+        }
+    }
+
+    private suspend fun performSafetyCheck(query: String): Boolean {
+        return try {
+            withContext(Dispatchers.IO) {
+                // Try to generate content with safety filters
+                val response = moderationModel.generateContent(query)
+
+                // Check if content was blocked
+                if (response.candidates.isEmpty()) {
+                    Log.w("ChatViewModel", "Content blocked by safety filters")
+                    return@withContext false
+                }
+
+                val candidate = response.candidates.first()
+                val isBlocked = candidate.finishReason.toString() == "SAFETY"
+
+                if (isBlocked) {
+                    val blockedCategories = response.promptFeedback?.safetyRatings
+                        ?.map { it.category.name }
+                    Log.w("ChatViewModel", "Blocked categories: $blockedCategories")
+                    return@withContext false
+                }
+
+                true
+            }
+        } catch (e: Exception) {
+            Log.e("ChatViewModel", "Safety check error: ${e.message}")
+            // If safety check fails, allow the query (fail open for better UX)
+            true
+        }
+    }
+
 
     private fun formatMedicalResponse(response: MedicalQueryResponse): String{
         var formattedText = response.response

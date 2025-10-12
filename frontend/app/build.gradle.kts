@@ -1,3 +1,6 @@
+import java.io.FileInputStream
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -16,7 +19,19 @@ android {
         versionCode = 1
         versionName = "1.0"
 
+        val properties = Properties()
+        val localPropertiesFile = rootProject.file("local.properties")
+        if (localPropertiesFile.exists()) {
+            properties.load(FileInputStream(localPropertiesFile))
+        }
+
+        buildConfigField("String", "API_KEY", "\"${properties.getProperty("API_KEY", "")}\"")
+
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        buildConfig = true
     }
 
     buildTypes {
@@ -28,6 +43,8 @@ android {
             )
         }
     }
+
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -39,6 +56,8 @@ android {
         compose = true
     }
 }
+
+
 
 dependencies {
 
@@ -76,6 +95,7 @@ dependencies {
     implementation("com.google.firebase:firebase-bom:32.7.0")
     implementation ("com.google.android.gms:play-services-auth:20.7.0")
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.google.ai.client.generativeai:generativeai:0.1.2")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")

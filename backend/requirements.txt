@@ -11,7 +11,7 @@ langchain-google-genai
 langchain-huggingface
 
 # COMMUNITY
-langchain-COMMUNITY
+langchain-community
 
 # SPECIFIC
 faiss-cpu
