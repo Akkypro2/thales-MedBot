@@ -35,5 +35,7 @@ vectorstore.faiss/
 # Caches for native C++ (NDK) builds
 .externalNativeBuild
 .cxx
+#API keys and contants
+Constants.kt
 # Duplicate entry for local properties
 local.properties
